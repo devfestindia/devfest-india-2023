@@ -3,6 +3,7 @@
     <v-row justify="center" align="center" class="px-2">
       <v-col
         md="12"
+        cols="12"
         class="text-center pa-md-10"
         style="background-color: white; border-radius: 15px"
       >
@@ -23,11 +24,11 @@
         </p>
       </v-col>
 
-      <v-col md="12" class="pa-0 ma-0 mt-5">
+      <v-col md="12" class="pa-0 ma-0 mt-md-5 mt-2">
         <v-container fluid class="google-font px-0">
           <v-row align="start">
             <v-col md="4" cols="12" sm="4" v-for="(item, index) in whatWedo" :key="index">
-              <div class="pa-md-6" style="background-color: white; border-radius: 15px">
+              <div class="pa-md-6 pa-4" style="background-color: white; border-radius: 15px">
                 <p style="font-size: 20px; font-weight: 600" class="mt-4">
                   {{ item.title }}
                 </p>

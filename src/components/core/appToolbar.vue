@@ -15,48 +15,18 @@
       </v-toolbar-title>
   
       <div class="hidden-sm-and-down">
-        <v-btn rounded text small class="mr-1" color="primary" to="/communities"
+        <v-btn rounded text small class="mr-1" color="primary" to="/communities" style="text-transform: none;"
           >Communities</v-btn
         >
-        <v-btn rounded text small class="mr-1" color="primary" to="/team"
-          >Team</v-btn
-        >
-        <!-- <v-btn rounded text small class="mr-1" color="primary" to="/bootcamps"
-          >Bootcamp</v-btn
-        > -->
-        <v-btn rounded text small class="mr-1" color="primary" to="/about"
+        <v-btn rounded text small class="mr-1" color="primary" to="/devfest" style="text-transform: none;"
+          >Find An Event</v-btn>
+        <v-btn rounded text small class="mr-1" color="primary" to="/about" style="text-transform: none;"
           >About</v-btn
         >
       </div>
   
       <v-spacer></v-spacer>
-  
-      <!-- <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-  
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
-  
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn> -->
-      <!-- <v-list class="py-0 my-0 hidden-sm-and-down" >
-        <v-list-item>
-          <v-list-item-avatar>
-            <v-img src="https://picsum.photos/200/"></v-img>
-          </v-list-item-avatar>
-  
-          <v-list-item-content>
-            <v-list-item-title>Test</v-list-item-title>
-            <v-list-item-subtitle>Test lasdas</v-list-item-subtitle>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list> -->
-      <v-btn rounded depressed small color="primary" target="_blank" href="https://bootcamp.techferment.com"
-          >Bootcamp</v-btn
-        >
+
     </v-app-bar>
   </template>
   

@@ -2,7 +2,7 @@
   <v-main class="">
     <v-container fluid>
       <v-row justify="center" align="center">
-        <v-col md="4">
+        <v-col md="4" cols="12">
           <p class="google-font gdg-h1 mb-0 grey--text text--darken-2">
             GDG Communities <br> across India
           </p>
@@ -12,7 +12,7 @@
             developer group and join them right here!
           </p>
         </v-col>
-        <v-col md="8">
+        <v-col md="8" cols="12">
           <div v-if="loading" class="my-md-15 text-center pa-15">
             <v-progress-circular
               indeterminate

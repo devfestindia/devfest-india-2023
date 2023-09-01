@@ -21,6 +21,21 @@ const routes = [
     component: () => import(/* webpackChunkName: "devfest" */ '../views/FindAnEventPage.vue')
   },
   {
+    path: '/cfp',
+    name: 'cfp',
+    component: () => import(/* webpackChunkName: "cfp" */ '../views/CFPPage.vue')
+  },
+  {
+    path: '/faq',
+    name: 'faq',
+    component: () => import(/* webpackChunkName: "faq" */ '../views/FAQPage.vue')
+  },
+  {
+    path: '/devfest/:id',
+    name: 'DevFestCommunityPage',
+    component: () => import(/* webpackChunkName: "DevFestCommunityPage" */ '../views/DevFestEventPage.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')

@@ -1,6 +1,7 @@
 <template>
   <v-app style="background-color: #F3F6FB">
     <appToolbarVue/>
+    <appDrawerVue/>
     <v-main class="">
       <v-container fluid>
         <v-row justify="center" align="center">
@@ -18,13 +19,15 @@
 </template>
 
 <script>
+import appDrawerVue from './components/core/appDrawer.vue';
 import appFooterVue from './components/core/appFooter.vue';
 import appToolbarVue from './components/core/appToolbar.vue';
 export default {
   name: 'App',
   components:{
     appToolbarVue,
-    appFooterVue
+    appFooterVue,
+    appDrawerVue
   },
   data: () => ({
     show: false,

@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid style="background-color: white;border-radius: 15px" class="pa-15">
+    <v-container fluid style="background-color: white;border-radius: 15px" class="pa-5 pa-md-10">
       <v-row>
         <v-col class="text-center">
           <p class="google-font gdg-h1 mb-4 grey--text text--darken-2">
@@ -8,7 +8,7 @@
   
           <v-container fluid>
             <v-row justify="center" align="center">
-              <v-col md="1" sm="2" v-for="(item, index) in techs" :key="index">
+              <v-col md="1" sm="2" cols="4" v-for="(item, index) in techs" :key="index">
                 <a :href="item.link" target="_blank">
                   <v-avatar color="white" size="90">
                     <v-img :src="item.logo"></v-img>

@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="my-0">
     <v-row justify="center" align="center">
-      <v-col md="7">
+      <v-col md="7" cols="12" order-md="1" order="2">
         <p class="google-font gdg-h1 mb-4 grey--text text--darken-2" style="font-size: 220%">
           DevFest India 2023
         </p>
@@ -21,7 +21,7 @@
           >Find an Events
         </v-btn>
       </v-col>
-      <v-col md="5">
+      <v-col md="5" cols="12" order-md="2" order="1">
         <iframe
           width="100%"
           height="360"

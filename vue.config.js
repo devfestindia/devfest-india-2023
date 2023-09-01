@@ -1,16 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  css: {
-    extract: { ignoreOrder: true },
-  },
-  configureWebpack: {
-    output: {
-      crossOriginLoading: "anonymous",
-    },
-  },
-  chainWebpack: (config) => {
-    config.plugins.delete("prefetch");
-  },
   productionSourceMap: false,
   transpileDependencies: [
     'vuetify'
@@ -25,4 +14,5 @@ module.exports = defineConfig({
     manifestOptions: {
       background_color: "#ffffff",
     },
-  }})
+  }
+})

@@ -7,9 +7,7 @@
           style="
             cursor: pointer;
             background: white;
-            border-radius: 15px;
-            margin-left: auto;
-            margin-right: auto
+            border-radius: 25px;
           "
           class="py-n5 ma-0"
         >

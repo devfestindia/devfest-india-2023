@@ -33,7 +33,7 @@
               rel="noreferrer"
               class="grey--text text--darken-3 mr-4 google-font"
               style="text-decoration:none;"
-            >DevFest India 2021</a>
+            >DevFest India 2022</a>
             <br class="hidden-md-and-up">
             
             <a href="https://developers.google.com/community/gdg" target="_blank"

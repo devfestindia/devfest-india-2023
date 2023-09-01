@@ -1,7 +1,7 @@
 <template>
   <v-main class="pa-0 ma-0">
     <!-- Hero -->
-    <heroVue class="my-15" />
+    <heroVue class="my-md-15" />
     <!-- Hero -->
 
     <!-- Overview -->

@@ -8,9 +8,9 @@
   
           <v-container fluid>
             <v-row justify="center" align="center">
-              <v-col md="1" sm="2" cols="4" v-for="(item, index) in techs" :key="index">
+              <v-col md="1" sm="2" cols="3" v-for="(item, index) in techs" :key="index">
                 <a :href="item.link" target="_blank">
-                  <v-avatar color="white" size="90">
+                  <v-avatar color="white" size="70">
                     <v-img :src="item.logo"></v-img>
                   </v-avatar>
                 </a>

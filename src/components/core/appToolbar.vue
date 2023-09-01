@@ -6,7 +6,7 @@
     ></v-app-bar-nav-icon>
 
     <v-toolbar-title class="mr-4 px-0 google-font">
-      <router-link to="/" style="text-decoration: none; font-size: 100%">
+      <router-link to="/" style="text-decoration: none; font-size: 100%;color: black;">
         DevFest India
       </router-link>
     </v-toolbar-title>
@@ -19,7 +19,7 @@
         class="mr-1"
         color="primary"
         to="/communities"
-        style="text-transform: none"
+        style="text-transform: none;font-size: 80%;font-weight: 500;"
         >Communities</v-btn
       >
       <v-btn
@@ -29,7 +29,7 @@
         class="mr-1"
         color="primary"
         to="/devfest"
-        style="text-transform: none"
+        style="text-transform: none;font-size: 80%;font-weight: 500;"
         >Find An Event</v-btn
       >
       <v-btn
@@ -39,7 +39,7 @@
         class="mr-1"
         color="primary"
         to="/cfp"
-        style="text-transform: none"
+        style="text-transform: none;font-size: 80%;font-weight: 500;"
         >CFP</v-btn
       >
       <v-btn
@@ -49,7 +49,7 @@
         class="mr-1"
         color="primary"
         to="/faq"
-        style="text-transform: none"
+        style="text-transform: none;font-size: 80%;font-weight: 500;"
         >FAQs</v-btn
       >
     </div>

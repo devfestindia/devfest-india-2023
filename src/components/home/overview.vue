@@ -26,7 +26,7 @@
       <v-col md="12" class="pa-0 ma-0 mt-5">
         <v-container fluid class="google-font px-0">
           <v-row align="start">
-            <v-col md="4" v-for="(item, index) in whatWedo" :key="index">
+            <v-col md="4" cols="12" sm="4" v-for="(item, index) in whatWedo" :key="index">
               <div class="pa-md-6" style="background-color: white; border-radius: 15px">
                 <p style="font-size: 20px; font-weight: 600" class="mt-4">
                   {{ item.title }}

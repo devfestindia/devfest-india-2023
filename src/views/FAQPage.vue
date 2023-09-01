@@ -3,7 +3,7 @@
     <v-container fluid class="google-font">
       <v-row justify="start" align="start">
         <v-col md="8">
-          <p class="google-font gdg-heading mb-0 grey--text text--darken-2">
+          <p class="google-font gdg-heading mb-0 grey--text text--darken-4">
             Frequently asked questions
           </p>
           <p class="my-0 mb-8 h1-subheading">

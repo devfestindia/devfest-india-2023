@@ -3,7 +3,7 @@
     <v-container fluid>
       <v-row>
         <v-col md="12">
-          <p class="google-font gdg-heading mb-0 grey--text text--darken-2">
+          <p class="google-font gdg-heading mb-0 grey--text text--darken-4">
             DevFests in India
           </p>
           <p class="my-0 mb-8 h1-subheading google-font">

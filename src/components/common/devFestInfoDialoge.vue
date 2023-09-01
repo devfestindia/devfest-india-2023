@@ -51,7 +51,7 @@
           <v-container fluid class="pt-8">
             <v-row class="px-md-7 px-3" justify="center" align="center">
               <v-col md="10" class="">
-                <p class="google-font gdg-h1 mb-0 grey--text text--darken-2">
+                <p class="google-font gdg-h1 mb-0 grey--text text--darken-4">
                   {{ item.DevFestName }}
                 </p>
               </v-col>

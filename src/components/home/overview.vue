@@ -6,7 +6,7 @@
         class="text-center pa-md-10"
         style="background-color: white; border-radius: 15px"
       >
-        <p class="google-font gdg-h1 mb-4 grey--text text--darken-2" style="font-size: 220%">What to Expect</p>
+        <p class="google-font gdg-h1 mb-4 grey--text text--darken-4" style="font-size: 220%">What to Expect</p>
         <p
           class="google-font text--secondary"
           style="font-weight: 500; font-size: 17px"

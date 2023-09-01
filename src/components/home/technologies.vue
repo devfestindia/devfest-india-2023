@@ -2,7 +2,7 @@
     <v-container fluid style="background-color: white;border-radius: 15px" class="pa-5 pa-md-10">
       <v-row>
         <v-col class="text-center">
-          <p class="google-font gdg-h1 mb-4 grey--text text--darken-2">
+          <p class="google-font gdg-h1 mb-4 grey--text text--darken-4">
             Stay updated on the products you love
           </p>
   

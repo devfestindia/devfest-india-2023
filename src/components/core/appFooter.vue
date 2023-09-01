@@ -10,7 +10,7 @@
               <v-fab-transition>
                 <v-btn
                   aria-label="FAB Button"
-                  style="margin-top:-20px"
+                  style="margin-top:-30px"
                   color="white"
                   absolute
                   top

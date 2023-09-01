@@ -1,9 +1,9 @@
 <template>
   <v-main>
     <v-container fluid class="google-font">
-      <v-row>
-        <v-col md="12">
-          <p class="google-font gdg-heading mb-0 grey--text text--darken-2">
+      <v-row justify="start" align="start">
+        <v-col md="10" sm="12" cols="12">
+          <p class="google-font gdg-heading mb-0 grey--text text--darken-4">
             Call for Presentations
           </p>
           <p class="my-0 mb-8 h1-subheading">

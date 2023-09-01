@@ -36,10 +36,10 @@ const routes = [
     component: () => import(/* webpackChunkName: "DevFestCommunityPage" */ '../views/DevFestEventPage.vue')
   },
   {
-    path: '/about',
-    name: 'about',
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
+    path: '/coc',
+    name: 'CodeofConduct',
+    component: () => import(/* webpackChunkName: "coc" */ '../views/CoCPage.vue')
+  },
 ]
 
 const router = new VueRouter({

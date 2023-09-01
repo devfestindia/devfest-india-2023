@@ -29,6 +29,11 @@
           <v-list-item-title>Find An Event</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
+      <v-list-item to="/faq" class="google-font my-0 py-0" color="blue">
+        <v-list-item-content>
+          <v-list-item-title>FAQ</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>

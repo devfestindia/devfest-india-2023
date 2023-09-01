@@ -2,7 +2,7 @@
   <v-container fluid class="my-0">
     <v-row justify="center" align="center">
       <v-col md="7" cols="12" order-md="1" order="2">
-        <p class="google-font gdg-h1 mb-4 grey--text text--darken-2" style="font-size: 220%">
+        <p class="google-font gdg-h1 mb-4 grey--text text--darken-4" style="font-size: 220%">
           DevFest India 2023
         </p>
         <p class="google-font mt-3" style="font-size: 19px">

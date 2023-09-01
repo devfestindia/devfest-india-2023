@@ -11,7 +11,7 @@
       </router-link>
     </v-toolbar-title>
 
-    <div class="hidden-sm-and-down">
+    <div class="hidden-sm-and-down google-font">
       <v-btn
         rounded
         text

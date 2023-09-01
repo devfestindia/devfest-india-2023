@@ -38,6 +38,16 @@
         small
         class="mr-1"
         color="primary"
+        to="/badge"
+        style="text-transform: none;font-size: 80%;font-weight: 500;"
+        >Badge</v-btn
+      >
+      <v-btn
+        rounded
+        text
+        small
+        class="mr-1"
+        color="primary"
         to="/cfp"
         style="text-transform: none;font-size: 80%;font-weight: 500;"
         >CFP</v-btn

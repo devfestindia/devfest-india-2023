@@ -40,6 +40,11 @@ const routes = [
     name: 'CodeofConduct',
     component: () => import(/* webpackChunkName: "coc" */ '../views/CoCPage.vue')
   },
+  {
+    path: '/badge',
+    name: 'badge',
+    component: () => import(/* webpackChunkName: "badge" */ '../views/BadgePage.vue')
+  },
 ]
 
 const router = new VueRouter({

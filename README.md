@@ -1,6 +1,5 @@
-# DevFest India 2022
-Standard Web App for Tech Communties. <br>
-[Based on Project Aura](https://github.com/gdg-x/aura) <br>
+# DevFest India 2023
+Standard Web App for DevFest India's Communties. <br>
 
 
 ## List Your DevFest

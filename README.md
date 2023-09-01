@@ -5,18 +5,18 @@ Standard Web App for DevFest India's Communties. <br>
 ## List Your DevFest
 ```json
 {
-    "City":"Jalandhar",
-    "CommunityName":"GDG Jalandhar",
-    "DevFestName":"DevFest Jalandhar",
+    "City":"Jammu",
+    "CommunityName":"GDG Jammu",
+    "DevFestName":"DevFest Jammu",
     "Days":"1",
     "StartingDate":"2022-10-16",
     "EndingDate":"2022-10-16",
-    "Venue":"The Cabbana Resort & Spa",
-    "Description":"This DevFest will be an achievement for the GDG Jalandhar Team as we are all set to host the 2000+ developers by connecting the dots which we have started since a month. We started with the theme of Building Developers at DevCommunity Roadshow, then Guiding Developers at DevCreate Hackathon and now, ready with the theme - Supporting Developers.",
-    "EventLink":"https://devfest.gdgjalandhar.com",
-    "CommunityPage":"https://gdg.community.dev/gdg-jalandhar",
+    "Venue":"Jammu Venue Name",
+    "Description":"This DevFest will be an achievement for the GDG Jammu Team as we are all set to host the 1000+ developers by connecting the dots which we have started since a month. We started with the theme of Building Developers at DevCommunity Roadshow, then Guiding Developers at DevCreate Hackathon and now, ready with the theme - Supporting Developers.",
+    "EventLink":"https://devfest.Jammu.com",
+    "CommunityPage":"https://gdg.community.dev/gdg-Jammu",
     "Visible":"true",
-    "State":"Punjab",
+    "State":"Jammu",
     "CFP":{
         "Status":"1",
         "Link":"https://devfestindia.com",

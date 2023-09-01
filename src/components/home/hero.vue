@@ -25,14 +25,12 @@
         </v-btn>
       </v-col>
       <v-col md="6" cols="12" order-md="2" order="1">
-        <div v-if="loading" class="my-md-15 text-center pa-15">
-          <v-progress-circular
-            indeterminate
-            color="#4184F7"
-            :width="5"
-            :size="50"
-          >
-          </v-progress-circular>
+        <div class="text-center" v-if="loading">
+          <v-skeleton-loader
+            style="border-radius: 15px;height: 360px !important"
+            class="mx-auto"
+            type="image"
+          ></v-skeleton-loader>
         </div>
         <iframe
           v-show="!loading"

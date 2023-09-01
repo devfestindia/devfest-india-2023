@@ -6,7 +6,12 @@
         class="text-center pa-md-10"
         style="background-color: white; border-radius: 15px"
       >
-        <p class="google-font gdg-h1 mb-4 grey--text text--darken-4" style="font-size: 220%">What to Expect</p>
+        <p
+          class="google-font gdg-h1 mb-4 grey--text text--darken-4"
+          style="font-size: 220%"
+        >
+          What to Expect
+        </p>
         <p
           class="google-font text--secondary"
           style="font-weight: 500; font-size: 17px"
@@ -16,13 +21,18 @@
           developer conference where we aim to focus on multiple technologies
           through lightning talks, sessions, workshops, etc.
         </p>
-        <v-container fluid class="google-font">
-          <v-row>
+      </v-col>
+
+      <v-col md="12" class="pa-0 ma-0 mt-5">
+        <v-container fluid class="google-font px-0">
+          <v-row align="start">
             <v-col md="4" v-for="(item, index) in whatWedo" :key="index">
-              <p style="font-size: 18px; font-weight: 600" class="mt-4">
-                {{ item.title }}
-              </p>
-              <p>{{ item.desc }}</p>
+              <div class="pa-md-6" style="background-color: white; border-radius: 15px">
+                <p style="font-size: 20px; font-weight: 600" class="mt-4">
+                  {{ item.title }}
+                </p>
+                <p>{{ item.desc }}</p>
+              </div>
             </v-col>
           </v-row>
         </v-container>
@@ -33,14 +43,14 @@
 
 <script>
 export default {
-    name: 'OverviewComponent',
-    data: ()=>({
-        whatWedo: [
+  name: "OverviewComponent",
+  data: () => ({
+    whatWedo: [
       {
         title: "Technical content",
         size: "15%",
         img: "https://developers.google.com/community/devfest/images/conference.svg",
-        desc: "Events hosted by the Google Developer Groups community, featuring leading experts on Google technologies in areas like Android, Firebase and so much more!",
+        desc: "Events hosted by the Google Developer Groups community, featuring leading experts on Google technologies in areas.",
       },
       {
         title: "Workshops",
@@ -55,7 +65,7 @@ export default {
         desc: "Meet and connect with other developers in your community.",
       },
     ],
-    })
+  }),
 };
 </script>
 

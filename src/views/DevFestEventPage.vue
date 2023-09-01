@@ -107,7 +107,7 @@ export default {
       this.$router.push("/devfest");
     }
 
-    document.title = this.eventData.DevFestName + " | DevFest India 2022";
+    document.title = this.eventData.DevFestName + " | DevFest India 2023";
   },
   methods: {
     getDate(d) {

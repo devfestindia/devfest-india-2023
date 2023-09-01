@@ -44,7 +44,7 @@ export default {
     faqsData: data,
   }),
   created() {
-    document.title = "FAQ | DevFest India 2022";
+    document.title = "FAQ | DevFest India 2023";
   },
 };
 </script>

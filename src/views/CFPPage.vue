@@ -12,13 +12,16 @@
             developer group and join the event as a Speaker right here!
           </p>
 
-          <v-card outlined style="background-color: white;border-radius: 15px;border: 0;">
+          <v-card
+            outlined
+            style="background-color: white; border-radius: 15px; border: 0"
+          >
             <v-card-title>
               CFPs
               <v-spacer></v-spacer>
               <v-text-field
                 v-model="search"
-                style="max-width: 500px;"
+                style="max-width: 500px"
                 append-icon="mdi-magnify"
                 label="Search"
                 single-line
@@ -26,7 +29,7 @@
                 dense
                 solo-inverted
                 hide-details
-                 flat
+                flat
               ></v-text-field>
             </v-card-title>
             <v-data-table
@@ -34,6 +37,7 @@
               :items="data"
               :search="search"
               mobile-breakpoint="0"
+              :loading="loader"
             >
               <template v-slot:[`item.CommunityName`]="{ item }">
                 <a :href="item.CommunityPage" target="_black">{{
@@ -76,11 +80,10 @@
 </template>
 
 <script>
-import devfestData from "../assets/data/devfests.json";
 export default {
   name: "CPFPage",
   data: () => ({
-    data: devfestData,
+    data: [],
     search: "",
     headers: [
       { text: "Community", value: "CommunityName" },
@@ -90,13 +93,28 @@ export default {
       { text: "CFP Link", value: "custom" },
       { text: "CFP Deadline", value: "deadline" },
     ],
+    loader: true,
   }),
   created() {
-    document.title = "Call for Presentations | DevFest Jalandhar 2022";
-
-    this.data = this.data.filter((e) => e.CFP.Status == 1);
+    document.title = "Call for Presentations | DevFest Jalandhar 2023";
+    this.getData();
   },
   methods: {
+    async getData() {
+      this.loader = true;
+      try {
+        this.loader = true;
+        let res = await fetch(
+          "https://raw.githubusercontent.com/devfestindia/devfest-india-data-2023/main/data/events.json"
+        );
+        res = await res.json();
+        this.data = res.filter((e) => e.CFP.Status == 1);
+        this.loader = false;
+      } catch (error) {
+        console.log(error);
+        this.loader = false;
+      }
+    },
     getDate(d) {
       var date = new Date(d).toString().split("GMT");
       date = date[0].split(" ");

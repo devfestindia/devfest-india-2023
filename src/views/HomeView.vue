@@ -30,5 +30,8 @@ export default {
   data: () => ({
     
   }),
+  created(){
+    document.title = "DevFest India 2023";
+  }
 };
 </script>

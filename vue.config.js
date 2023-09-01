@@ -25,4 +25,4 @@ module.exports = defineConfig({
     manifestOptions: {
       background_color: "#ffffff",
     },
-  })
+  }})

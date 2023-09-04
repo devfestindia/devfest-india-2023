@@ -11,6 +11,10 @@
     <!-- Technologies -->
     <technologiesVue class="my-15"/>
     <!-- Technologies -->
+
+    <!-- social info -->
+    <SocialInfo />
+    <!-- social info -->
   </v-main>
 </template>
 
@@ -18,6 +22,7 @@
 import heroVue from "@/components/home/hero.vue";
 import overviewVue from '@/components/home/overview.vue';
 import technologiesVue from '@/components/home/technologies.vue';
+import SocialInfo from '@/components/home/socialInfo.vue';
 
 
 export default {
@@ -25,7 +30,8 @@ export default {
   components: {
     heroVue,
     overviewVue,
-    technologiesVue
+    technologiesVue,
+    SocialInfo
   },
   data: () => ({
     

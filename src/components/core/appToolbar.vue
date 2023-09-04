@@ -7,7 +7,7 @@
 
     <v-toolbar-title class="mr-4 px-0 google-font">
       <router-link to="/" style="text-decoration: none; font-size: 100%;color: black;">
-        DevFest India
+        DevFest India 2023
       </router-link>
     </v-toolbar-title>
 
@@ -32,7 +32,7 @@
         style="text-transform: none;font-size: 80%;font-weight: 500;"
         >Find An Event</v-btn
       >
-      <v-btn
+      <!-- <v-btn
         rounded
         text
         small
@@ -41,7 +41,7 @@
         to="/badge"
         style="text-transform: none;font-size: 80%;font-weight: 500;"
         >Badge</v-btn
-      >
+      > -->
       <v-btn
         rounded
         text

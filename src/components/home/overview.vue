@@ -1,13 +1,13 @@
 <template>
   <v-container fluid>
-    <v-row justify="center" align="center" class="px-2">
+    <v-row justify="center" align-items="center" class="px-2" style=" border-radius: 15px">
       <v-col
-        md="12"
+        md="6"
         cols="12"
         class="text-center pa-md-10"
-        style="background-color: white; border-radius: 15px"
+        style="background-color: white"
       >
-        <p
+        <!-- <p
           class="google-font gdg-h1 mb-4 grey--text text--darken-4"
           style="font-size: 220%"
         >
@@ -21,13 +21,14 @@
           to bring the technology closer to the developers. It is an all day
           developer conference where we aim to focus on multiple technologies
           through lightning talks, sessions, workshops, etc.
-        </p>
+        </p> -->
+        <img src="../../assets/img/devfest-expect.svg" />
       </v-col>
 
-      <v-col md="12" class="pa-0 ma-0 mt-md-5 mt-2">
+      <v-col md="6" class="pa-0 ma-0 pl-8"  style="background-color: white;">
         <v-container fluid class="google-font px-0">
-          <v-row align="start">
-            <v-col md="4" cols="12" sm="4" v-for="(item, index) in whatWedo" :key="index">
+          <!-- <v-row align="start">
+            <v-col md="3" cols="12" sm="4" v-for="(item, index) in whatWedo" :key="index">
               <div class="pa-md-6 pa-4" style="background-color: white; border-radius: 15px">
                 <p style="font-size: 20px; font-weight: 600" class="mt-4">
                   {{ item.title }}
@@ -35,7 +36,18 @@
                 <p>{{ item.desc }}</p>
               </div>
             </v-col>
-          </v-row>
+          </v-row> -->
+          <div v-for="(item, index) in whatWedo" :key="index" class="d-flex">
+            <div class="pt-12">
+              <img :src="require(`../../assets/img/${item.icon}`)" />
+            </div>
+            <div class="pa-md-6 pa-4">
+                <p style="font-size: 20px; font-weight: 600" class="mt-4">
+                  {{ item.title }}
+                </p>
+                <p>{{ item.desc }}</p>
+              </div>
+          </div>
         </v-container>
       </v-col>
     </v-row>
@@ -50,21 +62,24 @@ export default {
       {
         title: "Technical content",
         size: "15%",
+        icon: "tech-content.svg",
         img: "https://developers.google.com/community/devfest/images/conference.svg",
-        desc: "Events hosted by the Google Developer Groups community, featuring leading experts on Google technologies in areas.",
+        desc: "Worldwide events hosted by the Google Developer Groups community, featuring leading experts on Google technologies in areas like Android, Firebase, Flutter, Machine Learning and so much more",
       },
       {
         title: "Workshops",
-        size: "25%",
+        size: "15%",
+        icon: "workshops.svg",
         img: "https://developers.google.com/community/devfest/images/workshops.svg",
         desc: "Full-day workshops, hands-on experiences, hacking and debugging events, all centered on your favorite Google technologies.",
       },
       {
         title: "Networking",
-        size: "21%",
+        size: "15%",
+        icon: "networking.svg",
         img: "https://developers.google.com/community/devfest/images/networking.svg",
         desc: "Meet and connect with other developers in your community.",
-      },
+      }
     ],
   }),
 };

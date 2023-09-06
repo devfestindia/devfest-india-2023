@@ -1,5 +1,5 @@
 <template>
-  <v-app style="background-color: #F3F6FB">
+  <v-app>
     <appToolbarVue/>
     <appDrawerVue/>
     <v-main class="">

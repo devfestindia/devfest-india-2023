@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar flat fixed app class="px-md-5 px-0" color="white">
+  <v-app-bar flat fixed app class="px-md-5 px-0" color="white" style="background-color: #F3F6FB !important;box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2)!important;">
     <v-app-bar-nav-icon
       class="d-md-none d-lg-none"
       @click="toggleDrawer"
@@ -7,7 +7,7 @@
 
     <v-toolbar-title class="mr-4 px-0 google-font">
       <router-link to="/" style="text-decoration: none; font-size: 100%;color: black;">
-        DevFest India
+        DevFest India 2023
       </router-link>
     </v-toolbar-title>
 
@@ -32,7 +32,7 @@
         style="text-transform: none;font-size: 80%;font-weight: 500;"
         >Find An Event</v-btn
       >
-      <v-btn
+      <!-- <v-btn
         rounded
         text
         small
@@ -41,7 +41,7 @@
         to="/badge"
         style="text-transform: none;font-size: 80%;font-weight: 500;"
         >Badge</v-btn
-      >
+      > -->
       <v-btn
         rounded
         text

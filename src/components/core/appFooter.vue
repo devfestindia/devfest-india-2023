@@ -3,6 +3,7 @@
       <v-container
         fluid
         class="white"
+        style="background-color: #F3F6FB !important"
       >
         <v-row justify="center" align="center" class="pt-5">
           <v-col md="11" lg="11" sm="11" xl="11" cols="12">

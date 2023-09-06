@@ -4,7 +4,7 @@
       <v-col
         md="6"
         cols="12"
-        class="text-center pa-md-10"
+        class="text-center pa-md-10 pt-4"
         style="background-color: white"
       >
         <!-- <p
@@ -22,7 +22,7 @@
           developer conference where we aim to focus on multiple technologies
           through lightning talks, sessions, workshops, etc.
         </p> -->
-        <img src="../../assets/img/devfest-expect.svg" />
+        <img src="../../assets/img/devfest-expect.svg" style="width:100%" />
       </v-col>
 
       <v-col md="6" class="pa-0 ma-0 pl-8"  style="background-color: white;">

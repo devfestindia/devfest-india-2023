@@ -23,6 +23,9 @@
           through lightning talks, sessions, workshops, etc.
         </p> -->
         <img src="../../assets/img/devfest-expect.svg" style="width:100%" />
+        <p>If you are a student/professional/entrepreneur, or wantrapreneur who feels that technical knowledge and expertise will boost your skill - then Devfest is 1 stop place for excellency. 
+
+Come here to meet/learn and excell with all the experts</p>
       </v-col>
 
       <v-col md="6" class="pa-0 ma-0 pl-8"  style="background-color: white;">

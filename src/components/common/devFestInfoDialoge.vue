@@ -13,8 +13,8 @@
         >
           <v-card ripple flat class="px-2 py-2 google-font" rounded="lg" style="border-radius:15px">
             <v-img
-              :src="require('@/assets/img/cardcover.png')"
-              :lazy-src="require('@/assets/img/cardcover.png')"
+              :src="require('@/assets/img/devfest-cover.png')"
+              :lazy-src="require('@/assets/img/devfest-cover.png')"
               :alt="item.DevFestName"
               position="left"
               height="140px"

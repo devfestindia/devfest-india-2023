@@ -37,13 +37,11 @@
           class="google-font text--secondary"
           style="font-weight: 500; font-size: 18px"
         >
-          An annual event hosted by the Google Developers Group across the world
-          to bring the technology closer to the developers. It is an all day
-          developer conference where we aim to focus on multiple technologies
-          through lightning talks, sessions, workshops, etc.
+        Welcome to the Global -Google Developer Groups annual event platform where our motto is to ensure that the technology connects to all corners of the world. 
+It is an all day event where you can expect talks/Sessions/workshops/Hackathons.Do not miss the best tech events nearby your area and stay tuned!!
         </p>
         <v-btn dark depressed to="/devfest" rounded color="#4285F4"
-          >Find an Events
+          >Find a DevFest near you
         </v-btn>
       </v-col>
     </v-row>

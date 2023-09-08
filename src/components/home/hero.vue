@@ -1,15 +1,15 @@
 <template>
   <v-container fluid class="my-0">
     <v-row justify="center" align-items="center">
-            <v-col md="12" cols="12" order-md="1" order="1">
-        <div class="text-center" v-if="loading">
+            <v-col md="12" cols="12" order-md="1" order="1" class="text-center">
+        <!-- <div class="text-center" v-if="loading">
           <v-skeleton-loader
             style="border-radius: 15px;height: 360px !important"
             class="mx-auto"
             type="image"
           ></v-skeleton-loader>
-        </div>
-        <iframe
+        </div> -->
+        <!-- <iframe
           v-show="!loading"
           @load="load"
           width="100%"
@@ -20,7 +20,8 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
           style="border-radius: 15px; border: 0px solid black"
-        ></iframe>
+        ></iframe> -->
+        <img src="../../assets/img/devfestindia23-banner.gif" alt="devfest banner image" class="banner-img"/>
       </v-col>
       <v-col md="12" cols="12" order-md="2" order="2" class="text-center">
         <p
@@ -64,4 +65,13 @@ export default {
 </script>
 
 <style>
+.banner-img {
+  height: 350px;
+}
+@media only screen and (max-width: 768px) {
+  .banner-img {
+  height: auto;
+  width: 100%;
+}
+}
 </style>

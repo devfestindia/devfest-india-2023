@@ -20,7 +20,7 @@
               height="140px"
               class="white--text align-center"
             >
-              <p class="mt-15 float-left ml-5" style="font-size:14px">{{ item.City }}</p>
+              <p class="mt-15 float-left ml-6" style="font-size:14px">{{ item.City }}</p>
             </v-img>
             <v-card-title>
               <div>

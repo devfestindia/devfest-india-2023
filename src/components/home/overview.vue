@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <v-row justify="center" align-items="center" class="px-2" style=" border-radius: 15px">
+    <v-row justify="center" align-items="center" class="px-2" style=" border-radius: 15px;border:1px solid">
       <v-col
         md="6"
         cols="12"
@@ -23,9 +23,9 @@
           through lightning talks, sessions, workshops, etc.
         </p> -->
         <img src="../../assets/img/devfest-expect.svg" style="width:100%" />
-        <p>If you are a student/professional/entrepreneur, or wantrapreneur who feels that technical knowledge and expertise will boost your skill - then Devfest is 1 stop place for excellency. 
+        <!-- <p>If you are a student/professional/entrepreneur, or wantrapreneur who feels that technical knowledge and expertise will boost your skill - then Devfest is 1 stop place for excellency. 
 
-Come here to meet/learn and excell with all the experts</p>
+Come here to meet/learn and excell with all the experts</p> -->
       </v-col>
 
       <v-col md="6" class="pa-0 ma-0 pl-8"  style="background-color: white;">
@@ -40,17 +40,40 @@ Come here to meet/learn and excell with all the experts</p>
               </div>
             </v-col>
           </v-row> -->
-          <div v-for="(item, index) in whatWedo" :key="index" class="d-flex">
-            <div class="pt-12">
+          <v-row justify="center" align-items="center" class="px-2" style=" border-radius: 15px" v-for="(item, index) in whatWedo" :key="index">
+            <v-col
+        md="2"
+        sm="3"
+        cols="3"
+      >
+      <div class="pt-12">
               <img :src="require(`../../assets/img/${item.icon}`)" />
             </div>
-            <div class="pa-md-6 pa-4">
+      </v-col>
+      <v-col
+        md="9"
+        sm="9"
+        cols="9"
+      >
+      <div class="pa-4">
                 <p style="font-size: 20px; font-weight: 600" class="mt-4">
                   {{ item.title }}
                 </p>
                 <p>{{ item.desc }}</p>
               </div>
-          </div>
+      </v-col>
+          </v-row>
+          <!-- <div v-for="(item, index) in whatWedo" :key="index" class="d-flex">
+            <div class="pt-12">
+              <img :src="require(`../../assets/img/${item.icon}`)" />
+            </div>
+            <div class="pa-4">
+                <p style="font-size: 20px; font-weight: 600" class="mt-4">
+                  {{ item.title }}
+                </p>
+                <p>{{ item.desc }}</p>
+              </div>
+          </div> -->
         </v-container>
       </v-col>
     </v-row>

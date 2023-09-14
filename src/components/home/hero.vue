@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="my-0">
     <v-row justify="center" align-items="center">
-            <v-col md="12" cols="12" order-md="1" order="1" class="text-center">
+            <v-col md="6" cols="12" order-md="2" order="2">
         <!-- <div class="text-center" v-if="loading">
           <v-skeleton-loader
             style="border-radius: 15px;height: 360px !important"
@@ -23,7 +23,7 @@
         ></iframe> -->
         <img src="../../assets/img/devfestindia23-banner.gif" alt="devfest banner image" class="banner-img"/>
       </v-col>
-      <v-col md="12" cols="12" order-md="2" order="2" class="text-center">
+      <v-col md="6" cols="12" order-md="1" order="1" class="pr-12">
         <p
           class="google-font gdg-h1 mb-4 grey--text text--darken-4"
           style="font-size: 320%"
@@ -37,13 +37,11 @@
           class="google-font text--secondary"
           style="font-weight: 500; font-size: 18px"
         >
-          An annual event hosted by the Google Developers Group across the world
-          to bring the technology closer to the developers. It is an all day
-          developer conference where we aim to focus on multiple technologies
-          through lightning talks, sessions, workshops, etc.
+        Welcome to the Global -Google Developer Groups annual event platform where our motto is to ensure that the technology connects to all corners of the world. 
+It is an all day event where you can expect talks/Sessions/workshops/Hackathons.Do not miss the best tech events nearby your area and stay tuned!!
         </p>
         <v-btn dark depressed to="/devfest" rounded color="#4285F4"
-          >Find an Events
+          >Find a DevFest near you
         </v-btn>
       </v-col>
     </v-row>
@@ -66,7 +64,7 @@ export default {
 
 <style>
 .banner-img {
-  height: 350px;
+  height: 320px;
 }
 @media only screen and (max-width: 768px) {
   .banner-img {

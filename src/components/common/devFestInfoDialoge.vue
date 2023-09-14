@@ -13,14 +13,14 @@
         >
           <v-card ripple flat class="px-2 py-2 google-font" rounded="lg" style="border-radius:15px">
             <v-img
-              :src="require('@/assets/img/cardcover.png')"
-              :lazy-src="require('@/assets/img/cardcover.png')"
+              :src="require('@/assets/img/devfest-cover.png')"
+              :lazy-src="require('@/assets/img/devfest-cover.png')"
               :alt="item.DevFestName"
               position="left"
               height="140px"
               class="white--text align-center"
             >
-              <p class="mt-15 float-left ml-5" style="font-size:14px">{{ item.City }}</p>
+              <p class="mt-15 float-left ml-6" style="font-size:14px">{{ item.City }}</p>
             </v-img>
             <v-card-title>
               <div>

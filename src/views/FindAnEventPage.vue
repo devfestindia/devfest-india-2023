@@ -31,7 +31,7 @@
       <!-- Upcoming DevFest -->
 
       <!-- Past DevFests -->
-      <p v-if="!loader" class="mt-10 mb-1">Past DevFests</p>
+      <p v-if="!loader && PassedDevFests?.length > 0" class="mt-10 mb-1">Past DevFests</p>
       <v-row align="start" justify="start" v-if="!loader">
         <v-col
           md="3"

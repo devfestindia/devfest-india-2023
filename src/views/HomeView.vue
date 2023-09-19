@@ -12,6 +12,8 @@
     <technologiesVue class="my-15"/>
     <!-- Technologies -->
 
+    <!-- <DevfestMoments /> -->
+
     <!-- social info -->
     <SocialInfo />
     <!-- social info -->
@@ -23,6 +25,7 @@ import heroVue from "@/components/home/hero.vue";
 import overviewVue from '@/components/home/overview.vue';
 import technologiesVue from '@/components/home/technologies.vue';
 import SocialInfo from '@/components/home/socialInfo.vue';
+// import DevfestMoments from '@/components/home/devfestMoments.vue';
 
 
 export default {

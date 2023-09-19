@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar flat fixed app class="px-md-5 px-0" color="white" style="background-color: #F3F6FB !important;box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2)!important;">
+  <v-app-bar flat fixed app class="px-md-5 px-0" color="white" style="background-color: #fff !important;box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2)!important;">
     <v-app-bar-nav-icon
       class="d-md-none d-lg-none"
       @click="toggleDrawer"

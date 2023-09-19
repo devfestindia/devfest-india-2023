@@ -21,7 +21,7 @@
           allowfullscreen
           style="border-radius: 15px; border: 0px solid black"
         ></iframe> -->
-        <img src="../../assets/img/devfestindia23-banner.gif" alt="devfest banner image" class="banner-img"/>
+        <img src="../../assets/img/devfest-about-banner.png" alt="devfest banner image" class="banner-img"/>
       </v-col>
       <v-col md="6" cols="12" order-md="1" order="1" class="pr-12">
         <p
@@ -64,7 +64,7 @@ export default {
 
 <style>
 .banner-img {
-  height: 320px;
+  height: 350px;
 }
 @media only screen and (max-width: 768px) {
   .banner-img {

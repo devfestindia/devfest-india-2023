@@ -11,7 +11,7 @@
           "
           class="py-n5 ma-0"
         >
-          <v-card ripple flat class="px-2 py-2 google-font" rounded="lg" style="border-radius:15px">
+          <v-card ripple flat class="px-2 py-2 google-font" rounded="lg" style="border-radius:15px;border: 1px solid #5f6368 !important;">
             <v-img
               :src="require('@/assets/img/devfest-cover.png')"
               :lazy-src="require('@/assets/img/devfest-cover.png')"

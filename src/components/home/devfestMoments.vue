@@ -3,10 +3,9 @@
       <v-row>
         <v-col class="">
           <p
-            class="google-font mb-2"
-            style="font-size: 3.5vh;line-height: 1.22;font-weight:500"
+            class="google-font gdg-h1 mb-4 grey--text text--darken-4 text-center"
           >
-            devFest Moments'22 Shots
+            Devfest India Moments'22 Shots
           </p>
           <p class="google-font" style="font-size: 110%">
           </p>
@@ -14,27 +13,31 @@
       </v-row>
       <v-row class="ma-0 pa-0">
         <v-col md="12">
-          <v-slide-group
-            v-model="model"
-            class="pa-4"
-            active-class="success"
-            show-arrows
-          >
-            <v-slide-item
-              v-for="(item, index) in imgs"
-              :key="index"
-              style="height:400px"
-              v-slot:default="{ active, toggle }"
-            >
-              <v-img
-                class="ma-4"
-                :color="active ? undefined : 'grey lighten-1'"
-                :src="require('@/assets/img/2019/'+item.img)"
-                style="width: 10%;"
-                @click="toggle"
-              ></v-img>
-            </v-slide-item>
-          </v-slide-group>
+          <v-carousel> 
+            <div v-for="(item, index) in imgs" :key="index"> 
+              <v-carousel-item>
+         <div class="text-center" v-if="loading">
+          <v-skeleton-loader
+            style="border-radius: 15px;height: 360px !important"
+            class="mx-auto"
+            type="image"
+          ></v-skeleton-loader>
+        </div> 
+        <iframe
+          v-show="!loading"
+          @load="load"
+          width="100%"
+          height="360"
+          :src="item.src"
+          title="DevFest India 2022 is here!"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="border-radius: 15px; border: 0px solid black"
+        ></iframe>
+              </v-carousel-item>
+            </div>
+            </v-carousel>
         </v-col>
       </v-row>
     </v-container>
@@ -44,28 +47,35 @@
   export default {
     data: () => ({
       model: null,
+      loading: true,
       imgs: [
         {
-          name: "",
-          img:"",
+          src: "https://www.youtube.com/embed/K6W9Usve6hI"
         },
         {
-          name: "",
-          img:
-            "",
+          src: "https://www.youtube.com/embed/K6W9Usve6hI"
+
         },
         {
-          name: "",
-          img:
-            "",
+          src: "https://www.youtube.com/embed/K6W9Usve6hI"
+
         },
          {
-          name: "",
-          img:
-            "",
+          src: "https://www.youtube.com/embed/K6W9Usve6hI"
+
         },
       ],
     }),
+    methods: {
+    load() {
+      this.loading = false;
+    },
+  },
   };
   </script>
+  <style>
+  .v-carousel__controls {
+    display: none !important;
+  }
+</style>
   

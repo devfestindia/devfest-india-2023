@@ -70,7 +70,7 @@
                   class="mx-2"
                   color="white"
                   rel="noreferrer"
-                  href="https://www.instagram.com/gdg.india/"
+                  href="https://www.instagram.com/gdgindia/"
                   target="_blank"
                   slot="activator"
                 >

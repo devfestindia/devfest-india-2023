@@ -39,7 +39,7 @@
               mobile-breakpoint="0"
               :loading="loader"
             >
-              <template v-slot:[`item.CommunityName`]="{ item }">
+              <template v-slot:[`item.CommunityName`]="{ item }" >
                 <a :href="item.CommunityPage" target="_black">{{
                   item.CommunityName
                 }}</a>
@@ -96,7 +96,7 @@ export default {
     loader: true,
   }),
   created() {
-    document.title = "Call for Presentations | DevFest Jalandhar 2023";
+    document.title = "Call for Presentations | DevFest India 2023";
     this.getData();
   },
   methods: {
@@ -108,7 +108,9 @@ export default {
           "https://raw.githubusercontent.com/devfestindia/devfest-india-data-2023/main/data/events.json"
         );
         res = await res.json();
-        this.data = res.filter((e) => e.CFP.Status == 1);
+        this.data = res.filter((e) => e.CFP.Status == 1 && new Date(e.CFP.LastDate) >=
+                    new Date().setHours(0, 0, 0, 0));
+        console.log(this.data, 'data');
         this.loader = false;
       } catch (error) {
         console.log(error);
